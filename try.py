@@ -1,16 +1,10 @@
 import streamlit as st
 
+PAGE_CONFIG = {"page_title":"Align audio data to transcription","page_icon":":smiley:","layout":"centered"}
+st.beta_set_page_config(**PAGE_CONFIG)
 def main():
-	st.title("File Upload Tutorial")
+	st.title("Audio data time-alignment")
+	st.subheader("retrieve transcription from Word documents")
 
-	menu = ["Image","Dataset","DocumentFiles","About"]
-	choice = st.sidebar.selectbox("Menu",menu)
-
-	if choice == "Image":
-		st.subheader("Image")
-
-    elif choice == "Dataset":
-		st.subheader("Dataset")
-
-    elif choice == "DocumentFiles":
-		st.subheader("DocumentFiles")
+if __name__ == '__main__':
+	main()
