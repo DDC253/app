@@ -1,4 +1,5 @@
 import streamlit as st
+%pip install pydub --quiet
 
 def main():
 	st.title("Audio data time-alignment")
@@ -9,3 +10,4 @@ if __name__ == '__main__':
 
 
 uploaded_file = st.file_uploader("Upload your audio file")
+
