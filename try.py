@@ -1,5 +1,5 @@
 import streamlit as st
-!pip install pydub --quiet
+$ python -m pip install pydub --quiet
 
 def main():
 	st.title("Audio data time-alignment")
