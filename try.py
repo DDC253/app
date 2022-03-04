@@ -10,4 +10,4 @@ if __name__ == '__main__':
 
 uploaded_file = st.file_uploader("Upload your audio file")
 
-st.download_button('Download CSV', text_contents, 'text/csv')
+st.download_button('Download CSV', uploaded_file, 'text/csv')
