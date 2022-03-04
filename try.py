@@ -6,3 +6,6 @@ def main():
 
 if __name__ == '__main__':
 	main()
+
+
+uploaded_file = st.file_uploader("Upload your audio file")
